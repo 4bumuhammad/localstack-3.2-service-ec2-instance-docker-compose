@@ -192,7 +192,7 @@ Response.
 
 &nbsp;
 
-## &#x1F530; Elastic Compute Cloud (EC2)
+## &#x1F530; Testing with experimental stages | Elastic Compute Cloud (EC2)
 **Get started with Amazon Elastic Compute Cloud (Amazon EC2) on LocalStack**<br />
 
 &nbsp;
