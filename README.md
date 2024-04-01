@@ -60,6 +60,9 @@ Localstack `EC2 instances` will have actual capabilities only with the Localstac
     - User Guides | Elastic Compute Cloud (EC2)
       https://docs.localstack.cloud/user-guide/aws/ec2/
 
+
+
+    
     <b>[ LOCALSTACK_API_KEY - `localstack/localstack-pro` ]</b><br />
     - UAuth Token | Configure your Auth Token to start LocalStack
       https://docs.localstack.cloud/getting-started/auth-token/
