@@ -197,7 +197,7 @@ Response.
 
 &nbsp;
 
-**Create a Key Pair**<br />
+**Create a Key Pair.**<br /><br />
 To create a key pair, you can use the CreateKeyPair API. Run the following command to create the key pair and pipe the output to a file named key.pem:
 
 <pre>
