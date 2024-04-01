@@ -544,7 +544,6 @@ You can also set up an SSH connection to the locally emulated EC2 instance using
 <pre>
     ❯ ssh -p 12862 -i ./localstack/localstack_home/key.pem root@172.0.0.1   
 </pre>
----
 
 &nbsp;
 
