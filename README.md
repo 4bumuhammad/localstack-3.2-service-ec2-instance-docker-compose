@@ -478,7 +478,7 @@ You can now run an EC2 instance using the RunInstances API. Run the following co
 &nbsp;
 
 <div align="center">
-    <img src="./gambar-petunjuk/the_end.png" alt="the_end" style="display: block; margin: 0 auto;">
+    <img src="./gambar-petunjuk/the_end_s400.png" alt="the_end" style="display: block; margin: 0 auto;">
 </div> 
 
 &nbsp;
