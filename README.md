@@ -19,7 +19,7 @@ ATTENTION !<br />
 
 Localstack `EC2 instances` will have actual capabilities only with the Localstack Pro service.
 <div align="center">
-    <img src="./gambar-petunjuk/ss_ec2_mocks_localstack.png" alt="ss_ec2_mocks_localstack" style="display: block; margin: 0 auto;">
+    <img src="./gambar-petunjuk/ss_ec2_mocks_localstack_rev1.png" alt="ss_ec2_mocks_localstack" style="display: block; margin: 0 auto;">
     <p align="center">URL : https://github.com/localstack/localstack/issues/9470</p>
 </div> 
 
