@@ -209,32 +209,33 @@ To create a key pair, you can use the CreateKeyPair API. Run the following comma
 
 
             -----BEGIN RSA PRIVATE KEY-----
-            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
+            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
             -----END RSA PRIVATE KEY-----
+
 </pre>
 
 <pre>
@@ -281,8 +282,8 @@ Currently, LocalStack only supports the default security group. You can add rule
             "Return": true,
             "SecurityGroupRules": [
                 {
-                    "SecurityGroupRuleId": "sgr-5097b9a95dfd554e2",
-                    "GroupId": "sg-3cd65e02af566a5a9",
+                    "SecurityGroupRuleId": "sgr-adfb8268efbfbae34",
+                    "GroupId": "sg-6db4f403b96d01afd",
                     "GroupOwnerId": "000000000000",
                     "IsEgress": false,
                     "IpProtocol": "tcp",
@@ -355,117 +356,121 @@ You can now run an EC2 instance using the RunInstances API. Run the following co
 </pre>
 <pre>
     ❯ awslocal ec2 run-instances --image-id ami-ff0fea8310f3 --count 1 --instance-type t3.nano --key-name my-key --security-group-ids $sg_id --user-data file://./user_script.sh
+
+    # or
+
+    ❯ awslocal ec2 run-instances --image-id ami-ff0fea8310f3 --count 1 --instance-type t3.nano --key-name my-key --security-group-ids $sg_id --user-data file://./user_script_flask_api_example.sh
 </pre>
 <pre>
-            {
-                "Groups": [
-                    {
-                        "GroupName": "default",
-                        "GroupId": "sg-245f6a01"
-                    }
-                ],
-                "Instances": [
-                    {
-                        "AmiLaunchIndex": 0,
-                        "ImageId": "ami-ff0fea8310f3",
-                        "InstanceId": "i-edc0beeaeae9b1a18",
-                        "InstanceType": "t3.nano",
-                        "KernelId": "None",
-                        "KeyName": "my-key",
-                        "LaunchTime": "2024-04-01T04:14:51Z",
-                        "Monitoring": {
-                            "State": "disabled"
-                        },
-                        "Placement": {
-                            "AvailabilityZone": "us-east-1a",
-                            "GroupName": "",
-                            "Tenancy": "default"
-                        },
-                        "PrivateDnsName": "ip-10-105-252-21.ec2.internal",
-                        "PrivateIpAddress": "10.105.252.21",
-                        "PublicDnsName": "ec2-54-214-147-31.compute-1.amazonaws.com",
-                        "PublicIpAddress": "54.214.147.31",
-                        "State": {
-                            "Code": 0,
-                            "Name": "pending"
-                        },
-                        "StateTransitionReason": "",
-                        "SubnetId": "subnet-f7bd8683",
-                        "VpcId": "vpc-2e8cff39",
-                        "Architecture": "x86_64",
-                        "BlockDeviceMappings": [
-                            {
-                                "DeviceName": "/dev/sda1",
-                                "Ebs": {
-                                    "AttachTime": "2024-04-01T04:14:51Z",
-                                    "DeleteOnTermination": false,
-                                    "Status": "in-use",
-                                    "VolumeId": "vol-30f43963"
-                                }
-                            }
-                        ],
-                        "ClientToken": "ABCDE0000000000003",
-                        "EbsOptimized": false,
-                        "Hypervisor": "xen",
-                        "NetworkInterfaces": [
-                            {
-                                "Association": {
-                                    "IpOwnerId": "000000000000",
-                                    "PublicIp": "54.214.147.31"
-                                },
-                                "Attachment": {
-                                    "AttachTime": "2015-01-01T00:00:00Z",
-                                    "AttachmentId": "eni-attach-069da715",
-                                    "DeleteOnTermination": true,
-                                    "DeviceIndex": 0,
-                                    "Status": "attached"
-                                },
-                                "Description": "Primary network interface",
-                                "Groups": [
-                                    {
-                                        "GroupName": "default",
-                                        "GroupId": "sg-3cd65e02af566a5a9"
-                                    }
-                                ],
-                                "MacAddress": "1b:2b:3c:4d:5e:6f",
-                                "NetworkInterfaceId": "eni-39ee55b2",
-                                "OwnerId": "000000000000",
-                                "PrivateIpAddress": "10.105.252.21",
-                                "PrivateIpAddresses": [
-                                    {
-                                        "Association": {
-                                            "IpOwnerId": "000000000000",
-                                            "PublicIp": "54.214.147.31"
-                                        },
-                                        "Primary": true,
-                                        "PrivateIpAddress": "10.105.252.21"
-                                    }
-                                ],
-                                "SourceDestCheck": true,
+        {
+            "Groups": [
+                {
+                    "GroupName": "default",
+                    "GroupId": "sg-245f6a01"
+                }
+            ],
+            "Instances": [
+                {
+                    "AmiLaunchIndex": 0,
+                    "ImageId": "ami-ff0fea8310f3",
+                    "InstanceId": "i-8008853b1b4473b29",
+                    "InstanceType": "t3.nano",
+                    "KernelId": "None",
+                    "KeyName": "my-key",
+                    "LaunchTime": "2024-04-01T08:00:36Z",
+                    "Monitoring": {
+                        "State": "disabled"
+                    },
+                    "Placement": {
+                        "AvailabilityZone": "us-east-1a",
+                        "GroupName": "",
+                        "Tenancy": "default"
+                    },
+                    "PrivateDnsName": "ip-10-178-41-121.ec2.internal",
+                    "PrivateIpAddress": "10.178.41.121",
+                    "PublicDnsName": "ec2-54-214-140-132.compute-1.amazonaws.com",
+                    "PublicIpAddress": "54.214.140.132",
+                    "State": {
+                        "Code": 0,
+                        "Name": "pending"
+                    },
+                    "StateTransitionReason": "",
+                    "SubnetId": "subnet-d0e68d61",
+                    "VpcId": "vpc-8407b336",
+                    "Architecture": "x86_64",
+                    "BlockDeviceMappings": [
+                        {
+                            "DeviceName": "/dev/sda1",
+                            "Ebs": {
+                                "AttachTime": "2024-04-01T08:00:36Z",
+                                "DeleteOnTermination": false,
                                 "Status": "in-use",
-                                "SubnetId": "subnet-f7bd8683",
-                                "VpcId": "vpc-2e8cff39"
+                                "VolumeId": "vol-520eca06"
                             }
-                        ],
-                        "RootDeviceName": "/dev/sda1",
-                        "RootDeviceType": "ebs",
-                        "SecurityGroups": [
-                            {
-                                "GroupName": "default",
-                                "GroupId": "sg-3cd65e02af566a5a9"
-                            }
-                        ],
-                        "SourceDestCheck": true,
-                        "StateReason": {
-                            "Code": "",
-                            "Message": ""
-                        },
-                        "VirtualizationType": "paravirtual"
-                    }
-                ],
-                "OwnerId": "000000000000",
-                "ReservationId": "r-745f983a"
-            }
+                        }
+                    ],
+                    "ClientToken": "ABCDE0000000000003",
+                    "EbsOptimized": false,
+                    "Hypervisor": "xen",
+                    "NetworkInterfaces": [
+                        {
+                            "Association": {
+                                "IpOwnerId": "000000000000",
+                                "PublicIp": "54.214.140.132"
+                            },
+                            "Attachment": {
+                                "AttachTime": "2015-01-01T00:00:00Z",
+                                "AttachmentId": "eni-attach-3e45f797",
+                                "DeleteOnTermination": true,
+                                "DeviceIndex": 0,
+                                "Status": "attached"
+                            },
+                            "Description": "Primary network interface",
+                            "Groups": [
+                                {
+                                    "GroupName": "default",
+                                    "GroupId": "sg-6db4f403b96d01afd"
+                                }
+                            ],
+                            "MacAddress": "1b:2b:3c:4d:5e:6f",
+                            "NetworkInterfaceId": "eni-f4c2dca6",
+                            "OwnerId": "000000000000",
+                            "PrivateIpAddress": "10.178.41.121",
+                            "PrivateIpAddresses": [
+                                {
+                                    "Association": {
+                                        "IpOwnerId": "000000000000",
+                                        "PublicIp": "54.214.140.132"
+                                    },
+                                    "Primary": true,
+                                    "PrivateIpAddress": "10.178.41.121"
+                                }
+                            ],
+                            "SourceDestCheck": true,
+                            "Status": "in-use",
+                            "SubnetId": "subnet-d0e68d61",
+                            "VpcId": "vpc-8407b336"
+                        }
+                    ],
+                    "RootDeviceName": "/dev/sda1",
+                    "RootDeviceType": "ebs",
+                    "SecurityGroups": [
+                        {
+                            "GroupName": "default",
+                            "GroupId": "sg-6db4f403b96d01afd"
+                        }
+                    ],
+                    "SourceDestCheck": true,
+                    "StateReason": {
+                        "Code": "",
+                        "Message": ""
+                    },
+                    "VirtualizationType": "paravirtual"
+                }
+            ],
+            "OwnerId": "000000000000",
+            "ReservationId": "r-3bdcfb12"
+        }
 </pre>
 
 &nbsp;
