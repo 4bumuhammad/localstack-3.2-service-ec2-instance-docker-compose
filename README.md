@@ -477,7 +477,20 @@ You can now run an EC2 instance using the RunInstances API. Run the following co
 
 &nbsp;
 
+---
+
 &nbsp;
+
+You can now open the LocalStack logs to find the IP address of the locally emulated EC2 instance. Run the following command to open the LocalStack logs:
+<pre>
+    ❯ docker logs localstack
+</pre>
+You should see the following output:
+<pre>
+    2023-08-16T17:18:29.702  INFO --- [   asgi_gw_0] l.s.ec2.vmmanager.docker   : Instance i-b07acefd77a3c415f will be accessible via SSH at: 127.0.0.1:12862, 172.17.0.4:22
+    2023-08-16T17:18:29.702  INFO --- [   asgi_gw_0] l.s.ec2.vmmanager.docker   : Instance i-b07acefd77a3c415f port mappings (container -> host): {'8000/tcp': 29043, '22/tcp': 12862}
+</pre>
+
 
 &nbsp;
 
