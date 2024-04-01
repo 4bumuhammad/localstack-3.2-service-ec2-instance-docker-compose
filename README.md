@@ -315,7 +315,7 @@ Install jq (a lightweight and flexible command-line JSON processor).
     ❯ sg_id=$(awslocal ec2 describe-security-groups | jq -r '.SecurityGroups[0].GroupId')
 
     ❯ echo $sg_id
-        sg-3cd65e02af566a5a9
+        sg-6db4f403b96d01afd
 </pre>
 
 &nbsp;
