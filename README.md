@@ -134,8 +134,8 @@ Response.
 <pre>
     HTTP/1.1 200 
     Content-Type: application/json
-    Content-Length: 889
-    date: Sun, 31 Mar 2024 21:28:21 GMT
+    Content-Length: 890
+    date: Mon, 01 Apr 2024 08:02:17 GMT
     server: hypercorn-h11
     Connection: close
 
@@ -148,7 +148,7 @@ Response.
         "config": "disabled",
         "dynamodb": "disabled",
         "dynamodbstreams": "disabled",
-        "ec2": "disabled",
+        "ec2": "running",
         "es": "disabled",
         "events": "disabled",
         "firehose": "disabled",
@@ -163,7 +163,7 @@ Response.
         "resourcegroupstaggingapi": "disabled",
         "route53": "disabled",
         "route53resolver": "disabled",
-        "s3": "running",
+        "s3": "available",
         "s3control": "disabled",
         "scheduler": "disabled",
         "secretsmanager": "disabled",
