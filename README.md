@@ -273,7 +273,7 @@ Current ssh public-key on the host device.
 
 &nbsp;
 
-**Add rules to your security group**<br />
+**Add rules to your security group.**<br /><br />
 Currently, LocalStack only supports the default security group. You can add rules to the security group using the AuthorizeSecurityGroupIngress API. Run the following command to add a rule to allow inbound traffic on port 8000:
 <pre>
     ❯ awslocal ec2 authorize-security-group-ingress --group-id default --protocol tcp --port 8000 --cidr 0.0.0.0/0
@@ -301,7 +301,7 @@ The above command will enable rules in the security group to allow incoming traf
 
 &nbsp;
 
-**Run an EC2 instance**<br />
+**Run an EC2 instance.**<br /><br />
 You can fetch the Security Group ID using the DescribeSecurityGroups API. Run the following command to fetch the Security Group ID:
 
 Install jq (a lightweight and flexible command-line JSON processor).
