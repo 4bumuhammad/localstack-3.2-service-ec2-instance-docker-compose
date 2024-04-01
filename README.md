@@ -483,6 +483,8 @@ You can now run an EC2 instance using the RunInstances API. Run the following co
 
 &nbsp;
 
+Because I am using the localstack community image so this step of the experiment is not continued, but the next information is still included based on the reference user guides.
+
 ---
 
 &nbsp;
