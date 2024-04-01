@@ -497,12 +497,42 @@ You can now open the LocalStack logs to find the IP address of the locally emula
 </pre>
 You should see the following output:
 <pre>
+    2023-08-16T17:18:10.609  INFO --- [   asgi_gw_0] localstack.request.aws     : AWS ec2.CreateKeyPair => 200
+    2023-08-16T17:18:19.716  INFO --- [   asgi_gw_0] localstack.request.aws     : AWS ec2.AuthorizeSecurityGroupIngress => 200
+    2023-08-16T17:18:23.522  INFO --- [   asgi_gw_0] localstack.request.aws     : AWS ec2.DescribeSecurityGroups => 200
     2023-08-16T17:18:29.702  INFO --- [   asgi_gw_0] l.s.ec2.vmmanager.docker   : Instance i-b07acefd77a3c415f will be accessible via SSH at: 127.0.0.1:12862, 172.17.0.4:22
     2023-08-16T17:18:29.702  INFO --- [   asgi_gw_0] l.s.ec2.vmmanager.docker   : Instance i-b07acefd77a3c415f port mappings (container -> host): {'8000/tcp': 29043, '22/tcp': 12862}
+    2023-08-16T17:18:29.762  INFO --- [   asgi_gw_0] localstack.request.aws     : AWS ec2.RunInstances => 200
+
 </pre>
 
+&nbsp;
+
+The logs with the localstack community only show the following.
+<pre>
+    localstack  | 2024-04-01T03:31:09.609  INFO --- [   asgi_gw_0] localstack.request.aws     : AWS ec2.CreateKeyPair => 200
+    localstack  | 2024-04-01T03:32:30.716  INFO --- [   asgi_gw_0] localstack.request.aws     : AWS ec2.AuthorizeSecurityGroupIngress => 200
+    localstack  | 2024-04-01T03:41:34.522  INFO --- [   asgi_gw_0] localstack.request.aws     : AWS ec2.DescribeSecurityGroups => 200
+    localstack  | 2024-04-01T04:14:51.762  INFO --- [   asgi_gw_0] localstack.request.aws     : AWS ec2.RunInstances => 200
+</pre>
 
 &nbsp;
+
+You can now use the IP address to test the Python Web Server. Run the following command to test the Python Web Server:
+<pre>
+    ❯ curl 172.17.0.4:8000
+</pre>
+
+You should see the following output:
+<pre>
+    &lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"&gt;
+    &lt;html&gt;
+    &lt;head&gt;
+    &lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8"&gt;
+    &lt;title&gt;Directory listing for /&lt;/title&gt;
+    ...
+</pre>
+
 
 &nbsp;
 
