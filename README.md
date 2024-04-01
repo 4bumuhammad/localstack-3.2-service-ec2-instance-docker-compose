@@ -500,6 +500,7 @@ You should see the following output:
     2023-08-16T17:18:10.609  INFO --- [   asgi_gw_0] localstack.request.aws     : AWS ec2.CreateKeyPair => 200
     2023-08-16T17:18:19.716  INFO --- [   asgi_gw_0] localstack.request.aws     : AWS ec2.AuthorizeSecurityGroupIngress => 200
     2023-08-16T17:18:23.522  INFO --- [   asgi_gw_0] localstack.request.aws     : AWS ec2.DescribeSecurityGroups => 200
+    . . .
     2023-08-16T17:18:29.702  INFO --- [   asgi_gw_0] l.s.ec2.vmmanager.docker   : Instance i-b07acefd77a3c415f will be accessible via SSH at: 127.0.0.1:12862, 172.17.0.4:22
     2023-08-16T17:18:29.702  INFO --- [   asgi_gw_0] l.s.ec2.vmmanager.docker   : Instance i-b07acefd77a3c415f port mappings (container -> host): {'8000/tcp': 29043, '22/tcp': 12862}
     2023-08-16T17:18:29.762  INFO --- [   asgi_gw_0] localstack.request.aws     : AWS ec2.RunInstances => 200
@@ -533,11 +534,16 @@ You should see the following output:
     ...
 </pre>
 
-
 &nbsp;
 
 &nbsp;
 
+**Connecting via SSH.**<br /><br />
+You can also set up an SSH connection to the locally emulated EC2 instance using the instance IP address.
+
+<pre>
+    ❯ ssh -p 12862 -i ./localstack/localstack_home/key.pem root@172.0.0.1   
+</pre>
 ---
 
 &nbsp;
@@ -546,9 +552,18 @@ You should see the following output:
 
 &nbsp;
 
-&nbsp;
+--
 
 &nbsp;
+
+<div align="center">
+    <img src="./gambar-petunjuk/well_done.png" alt="well_done" style="display: block; margin: 0 auto;">
+</div> 
+
+
+&nbsp;
+
+--
 
 &nbsp;
 
